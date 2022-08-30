@@ -1,15 +1,4 @@
-//File name: /Users/laptopuser/Documents/courses/cs135/projects/memoryGame/MemoryGame.hpp
 
-//header file of C++ ends with .hpp
-//#ifndef … #define … #endif are called include guard.
-//They can make sure a header file will not be included 
-//more than once. For example, suppose Hare and Tortoise 
-//are inherited from Animal class, 
-//then Animal.hpp is included in both Hare.hpp and Tortoise.hpp.
-//Then when we have a competition involves Hare and Tortoise,
-//Animal.hpp would have been included more than once, 
-//as a result, data members and function members in Animal.hpp
-//are declared more than once, which causes compilation problem.
 #ifndef _MEMORY_GAME
 #define _MEMORY_GAME
 #include <string>
